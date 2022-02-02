@@ -1,1 +1,4 @@
 rootProject.name = 'java-instrumentation-template'
+include 'micronaut-core'
+include 'micronaut-inject'
+include 'micronaut-core-3.2'
