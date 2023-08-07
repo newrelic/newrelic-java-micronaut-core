@@ -13,7 +13,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/newrelic/newrelic-java-micronaut-core)
 ![GitHub issues closed](https://img.shields.io/github/issues-closed/newrelic/newrelic-java-micronaut-core)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic/newrelic-java-micronaut-core)
-![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic-java-micronaut-core)
+![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic/newrelic-java-micronaut-core)
 
   
   
