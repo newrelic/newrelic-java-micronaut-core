@@ -1,20 +1,20 @@
-[![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
+<a href="https://opensource.newrelic.com/oss-category/#community-project"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Community_Project.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Project.png"><img alt="New Relic Open Source community project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Project.png"></picture></a>
+
+![GitHub forks](https://img.shields.io/github/forks/newrelic/newrelic-java-micronaut-core?style=social)
+![GitHub stars](https://img.shields.io/github/stars/newrelic/newrelic-java-micronaut-core?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/newrelic/newrelic-java-micronaut-core?style=social)
+
+![GitHub all releases](https://img.shields.io/github/downloads/newrelic/newrelic-java-micronaut-core/total)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/newrelic/newrelic-java-micronaut-core)
+![GitHub last commit](https://img.shields.io/github/last-commit/newrelic/newrelic-java-micronaut-core)
+![GitHub Release Date](https://img.shields.io/github/release-date/newrelic/newrelic-java-micronaut-core)
 
 
-![GitHub forks](https://img.shields.io/github/forks/newrelic-experimental/newrelic-java-micronaut-core?style=social)
-![GitHub stars](https://img.shields.io/github/stars/newrelic-experimental/newrelic-java-micronaut-core?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/newrelic-experimental/newrelic-java-micronaut-core?style=social)
+![GitHub issues](https://img.shields.io/github/issues/newrelic/newrelic-java-micronaut-core)
+![GitHub issues closed](https://img.shields.io/github/issues-closed/newrelic/newrelic-java-micronaut-core)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic/newrelic-java-micronaut-core)
+![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic-java-micronaut-core)
 
-![GitHub all releases](https://img.shields.io/github/downloads/newrelic-experimental/newrelic-java-micronaut-core/total)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/newrelic-experimental/newrelic-java-micronaut-core)
-![GitHub last commit](https://img.shields.io/github/last-commit/newrelic-experimental/newrelic-java-micronaut-core)
-![GitHub Release Date](https://img.shields.io/github/release-date/newrelic-experimental/newrelic-java-micronaut-core)
-
-
-![GitHub issues](https://img.shields.io/github/issues/newrelic-experimental/newrelic-java-micronaut-core)
-![GitHub issues closed](https://img.shields.io/github/issues-closed/newrelic-experimental/newrelic-java-micronaut-core)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic-experimental/newrelic-java-micronaut-core)
-![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic-experimental/newrelic-java-micronaut-core)
   
   
 # New Relic Java Agent Instrumentation for Micronaut Core Components
