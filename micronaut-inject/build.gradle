@@ -6,18 +6,18 @@ apply plugin: 'java'
 dependencies {
    implementation 'io.micronaut:micronaut-inject:2.0.0'
 
-   // New Relic Java Agent dependencies
-   implementation 'com.newrelic.agent.java:newrelic-agent:6.4.0'
-   implementation 'com.newrelic.agent.java:newrelic-api:6.4.0'
+   // New Relic Labs Java Agent dependencies
+   implementation 'com.newrelic.agent.java:newrelic-agent:7.4.0'
+   implementation 'com.newrelic.agent.java:newrelic-api:7.4.0'
    implementation fileTree(include: ['*.jar'], dir: '../libs')
    implementation fileTree(include: ['*.jar'], dir: '../test-lib')
 }
 
 jar {
   manifest {
-    attributes 'Implementation-Title': 'com.newrelic.instrumentation.micronaut-inject'
-    attributes 'Implementation-Vendor': 'New Relic'
-    attributes 'Implementation-Vendor-Id': 'com.newrelic'
+    attributes 'Implementation-Title': 'com.newrelic.instrumentation.labs.micronaut-inject'
+    attributes 'Implementation-Vendor': 'New Relic Labs'
+    attributes 'Implementation-Vendor-Id': 'com.newrelic.labs'
     attributes 'Implementation-Version': 1.0
   }
 }
