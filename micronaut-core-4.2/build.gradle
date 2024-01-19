@@ -1,10 +1,13 @@
 
-// Build.gradle generated for instrumentation module micronaut-core
+// Build.gradle generated for instrumentation module micronaut-core-2.4
 
 apply plugin: 'java'
 
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
 dependencies {
-    implementation 'io.micronaut:micronaut-core:2.0.0'
+    implementation 'io.micronaut:micronaut-core-reactive:4.2.0'
 
     // New Relic Labs Java Agent dependencies
     implementation 'com.newrelic.agent.java:newrelic-agent:7.4.0'
@@ -15,7 +18,7 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Implementation-Title': 'com.newrelic.instrumentation.labs.micronaut-core'
+        attributes 'Implementation-Title': 'com.newrelic.instrumentation.labs.micronaut-core-4.2'
         attributes 'Implementation-Vendor': 'New Relic Labs'
         attributes 'Implementation-Vendor-Id': 'com.newrelic.labs'
         attributes 'Implementation-Version': 1.0
@@ -23,7 +26,5 @@ jar {
 }
 
 verifyInstrumentation {
-    passes 'io.micronaut:micronaut-core:[2.0.0,2.4.0)'
-    passes 'io.micronaut:micronaut-core-reactive:[2.4.0,3.2.0,4.2.0)'
-
+    passes 'io.micronaut:micronaut-core-reactive:[4.2.0,)'
 }
