@@ -4,7 +4,7 @@
 apply plugin: 'java'
 
 dependencies {
-   implementation 'io.micronaut:micronaut-core:2.0.0'
+   implementation 'io.micronaut:micronaut-core:2.4.0'
 
    // New Relic Labs Java Agent dependencies
    implementation 'com.newrelic.agent.java:newrelic-agent:7.4.0'
@@ -23,7 +23,7 @@ jar {
 }
 
 verifyInstrumentation {
- 	passes 'io.micronaut:micronaut-core:[2.0.0,2.4.0)'
+ 	passes 'io.micronaut:micronaut-core:[2.4.0,)'
 	excludeRegex '.*RC[0-9]'
 	excludeRegex '.*M[0-9]'
 }
