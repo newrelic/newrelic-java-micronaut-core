@@ -1,4 +1,4 @@
-name: Build and Release v1.2
+name: Build and Release v1.3
 
 on: 
  workflow_dispatch: # This event allows manual triggering
@@ -31,6 +31,7 @@ jobs:
 
       - name: Build with Gradle and verifyInstrumentation
         run: |
+          . ./newrelic-dependencies.sh
           ./gradlew  install verifyInstrumentation
 
       - name: Identify Release Type
