@@ -1,3 +1,8 @@
+## Version: [v1.1.3](https://github.com/newrelic/newrelic-java-micronaut-core/releases/tag/v1.1.3) | Created: 2024-02-07
+### Build Upgrades
+- Pdate build.gradle
+- Pdate build.gradle
+
 ## Version: [v1.1.2](https://github.com/newrelic/newrelic-java-micronaut-core/releases/tag/v1.1.2) | Created: 2023-08-14
 
 
